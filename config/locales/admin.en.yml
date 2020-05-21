@@ -1,4 +1,42 @@
 en:
+  admin_help_modal:
+    heading: Admin console help
+    section_chooser:
+      label: "What do you need help with? "
+      groups:
+        basics: Admin console
+        library: Lesson library
+        resources: Lesson resources
+        students: Students
+        ecommerce: E-commerce
+        cms: CMS
+      options:
+        general: Introduction
+        dashboard: Dashboard
+        lessons: Lessons
+        courses: Courses
+        authors: Tutors
+        sections: Sections
+        categories: Categories
+        tags: Tags
+        skill_levels: Skill levels
+        site_settings: School settings
+        videos: Videos
+        audio_files: Audio files
+        downloadables: Scores
+        playlists: Playlists
+        students: Students
+        subscribers: Subscribers
+        comp_subscribers: Complimentary subscribers
+        stores: Stores
+        store_payments: Store payments
+        subscription_payments: Subscription payments
+        income_reports: Income reports
+        info_page: CMS > Info pages
+        content_blocks: CMS > Content blocks
+        images: CMS > Images
+
+
   helpers:
     submit:
       create: Create %{model}
@@ -136,7 +174,7 @@ en:
           twitter: Link to your Twitter profile by adding your username here.
           facebook: Full URL to your Facebook page
           instagram: Link to your Instagram account by adding your username here.
-          youtube: Link to your YouTube channel by adding your ID here. You can find this in yuor YouTube account settings.
+          youtube: Link to your YouTube channel by adding your ID here. You can find this in your YouTube account settings.
           meta_description: Make sure to include some important keywords, this is an important field for how your school will appear in search engine results.
           contact_email: Your email address to recieve the form submissions from your students.
           contact_image: This appears on the contact form for your school and will be cropped using a ratio of 1:1 (square).<br />
