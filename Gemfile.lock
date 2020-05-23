@@ -7,9 +7,9 @@ GIT
 
 GIT
   remote: https://github.com/stevebatcup/maawol.git
-  revision: 1aad386d5e172a7ec684dfc4f6afbe20732cdcd5
+  revision: 48f0c8330272e9166d2553bf58f80843d865288e
   specs:
-    maawol (0.3.19)
+    maawol (0.3.21)
       acts_as_commentable_with_threading
       acts_as_shopping_cart (~> 0.4.0)
       administrate (~> 0.13)
@@ -182,7 +182,7 @@ GEM
     excon (0.73.0)
     execjs (2.7.0)
     ffi (1.12.2)
-    fog-aws (3.6.4)
+    fog-aws (3.6.5)
       fog-core (~> 2.1)
       fog-json (~> 1.1)
       fog-xml (~> 0.1)
@@ -288,7 +288,7 @@ GEM
     pg (1.2.3)
     popper_js (1.16.0)
     public_suffix (4.0.5)
-    puma (4.3.3)
+    puma (4.3.5)
       nio4r (~> 2.0)
     rack (2.2.2)
     rack-protection (2.0.8.1)
@@ -384,7 +384,7 @@ GEM
       activemodel (>= 6.0.0)
       bindex (>= 0.4.0)
       railties (>= 6.0.0)
-    websocket-driver (0.7.1)
+    websocket-driver (0.7.2)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.4)
     xml-simple (1.1.5)
@@ -401,7 +401,7 @@ DEPENDENCIES
   maawol!
   mini_racer
   pg (>= 0.18, < 2.0)
-  puma (~> 4.1)
+  puma (~> 4.3.5)
   rails (~> 6.0.2, >= 6.0.2.2)
   rails-assets-ng-cookies!
   sass-rails (>= 6)
