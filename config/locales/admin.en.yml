@@ -1,3 +1,4 @@
+
 en:
   admin_help_modal:
     heading: Admin console help
@@ -12,12 +13,12 @@ en:
         cms: CMS
       options:
         general: Introduction
+        referrals: Tutors > Referrals
         dashboard: Dashboard
         lessons: Lessons
         courses: Courses
         authors: Tutors
-        sections: Sections
-        categories: Categories
+        sections: Sections & Categories
         tags: Tags
         skill_levels: Skill levels
         site_settings: School settings
@@ -32,9 +33,9 @@ en:
         store_payments: Store payments
         subscription_payments: Subscription payments
         income_reports: Income reports
-        info_page: CMS > Info pages
-        content_blocks: CMS > Content blocks
-        images: CMS > Images
+        info_page: Info pages
+        content_blocks: Content blocks
+        images: Images
 
 
   helpers:
@@ -65,6 +66,7 @@ en:
       category:
         when_associated: In categories
         lesson_ids: Lessons in this category
+        root_category: Section
         root_category_id: Section
       listening_lab:
         spotify_url: Spotify playlist URL
@@ -75,6 +77,7 @@ en:
         resource_name_overrides:
           multiple: Paying subscribers
           singular: Paying subscriber
+        is_admin: Administrator?
         subscription_created: Subscription purchased at
         subscription_referring_author_name: Referred by
       users_subscription_payment:
@@ -89,6 +92,7 @@ en:
         author_name: Tutor
       downloadable:
         when_associated: Scores
+        author_id: Tutor
         image: Thumbnail
         full_url: Download URL (only for subscribers)
         basket_url: Bakset URL (for YouTube etc)
@@ -142,7 +146,7 @@ en:
         earnings: You earned
         store_payments_count: Store payments
         subscription_payments_count: Subscription payments
-        profit_split_percentage: Your income percentage (Maawol gets the reaminder)
+        profit_split_percentage: Your income percentage (Maawol gets the remainder)
         total_income: Total income for website
       author:
         resource_name_overrides:

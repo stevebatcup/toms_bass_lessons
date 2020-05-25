@@ -7,9 +7,9 @@ GIT
 
 GIT
   remote: https://github.com/stevebatcup/maawol.git
-  revision: 4a9ccca172402a93522083597519caa02f45c17d
+  revision: 5736a3efdb8c4f0f97b9c51540306672ad957631
   specs:
-    maawol (0.3.22.6)
+    maawol (0.3.25)
       acts_as_commentable_with_threading
       acts_as_shopping_cart (~> 0.4.0)
       administrate (~> 0.13)
@@ -26,6 +26,7 @@ GIT
       dropzonejs-rails
       exception_notification
       fog-aws (~> 3.5)
+      httparty
       mailchimp-api (~> 2.0)
       mandrill-api (~> 1.0)
       mini_magick (>= 4.9.5)
