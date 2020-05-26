@@ -115,4 +115,6 @@ Rails.application.configure do
       subject: "Exception on Toms Bass Lessons",
       recipient_address: "developer@maawol.com"
     }
+
+  config.hosts << "toms_bass_lessons"
 end
