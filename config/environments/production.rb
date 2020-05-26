@@ -117,4 +117,5 @@ Rails.application.configure do
     }
 
   config.hosts << "toms_bass_lessons"
+  config.hosts << "tomsbasslessons.maawol.com"
 end
