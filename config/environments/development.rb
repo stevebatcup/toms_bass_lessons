@@ -61,4 +61,5 @@ Rails.application.configure do
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
   config.hosts << "toms_bass_lessons"
+  config.hosts << "tomsbasslessons.maawol.com"
 end
